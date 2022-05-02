@@ -21,6 +21,6 @@ public class Droid {
   public void setPurpose(String purpose) {this.purpose = purpose;}
 
   public void speak(){System.out.println("WAAAAHHH");}
-  public String toString() {return "Droid{Serial Number: '" + serialNumber + "', Model Type: '" + model + " ', Purpose: '" + purpose + "}" ;}
+  public String toString() {return "Serial Number: '" + serialNumber + "' Model Type: '" + model + " ' Purpose: '" + purpose + "'" ;}
 
 }
